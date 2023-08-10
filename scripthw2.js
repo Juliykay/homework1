@@ -57,4 +57,15 @@ alert(user[info]);
 console.log(user[info]);
 
 let acquaintance = prompt('Как вас зовут?');
-alert(`hello ${acquaintance}`);
+alert(`hello ${acquaintance} "!"`);
+
+
+
+
+
+
+
+
+
+
+
