@@ -25,7 +25,7 @@ body {
 }
 
 .top__text {
-  width: 481px;
+  /* width: 481px;*/
   padding-top: 32px;
   color: #FFF;
   font-size: 18px;
@@ -106,9 +106,21 @@ body {
     padding-right: 16px;
   }
   .top {
-    color: #FFF;
     text-align: center;
-    font-family: Montserrat;
+  }
+  .top__text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+  }
+  .bolt {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+  .title {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
