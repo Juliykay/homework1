@@ -1,5 +1,10 @@
-/*let passworld = "пароль";
-let */
+let password = prompt (`Введите пароль`);
+ if (password === `пароль`) {
+    alert(`Пароль введен верно`);
+ } else {
+    alert(`Пароль введен не верно`);
+ }
+ 
 
 let c = 2
 if (c>0 && c<10) {
@@ -8,17 +13,17 @@ if (c>0 && c<10) {
     alert(`не верно`);
 }
 
-/*let d = 24
+let d = 124
 let e = 18
-if (d || e > 100) {
+if (d > 100 || e > 100) {
     console.log(`верно`);
 } else {
     console.log(`Не верно`);
-}*/
+}
 
-/*let a = `2`;
+let a = `2`;
 let b = `3`;
-alertNumber( a + b);*/
+alert( Number(a)+ Number(b));
 
 let monthNumber =Number(prompt(`Введите номер месяца`));
 switch (monthNumber) {
