@@ -45,9 +45,11 @@
     padding: 13px 74px;
     text-decoration: none;
     box-sizing: border-box;
-
-   
-}
+  }
+  .btn:hover {
+    border-radius: 30px;
+    background: #EB443F;
+  }
   .title {
     color: #FFF;
 font-size: 64px;
@@ -72,6 +74,11 @@ padding-top: 217px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
+  }
+  .game:hover {
+    border-radius: 16px;
+border: 3px solid #44D2FF;
+background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
   }
  
  
