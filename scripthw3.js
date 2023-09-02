@@ -52,3 +52,7 @@ switch (monthNumber) {
         break;
 
 }
+
+
+
+<script src="scripthw3.js"></script>
