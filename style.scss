@@ -26,13 +26,13 @@
     background-size: cover;
   }
   .top__text {
-   /* width: 481px;*/
+    width: 480px;
     padding-top: 32px;
     color: #FFF;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 32px; /* 177.778% */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 177.778% */
   }
   .btn {
     margin-top:44px;
@@ -52,11 +52,11 @@
   }
   .title {
     color: #FFF;
-font-size: 64px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-top: 217px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 217px;
 
   }
 
@@ -77,66 +77,66 @@ padding-top: 217px;
   }
   .game:hover {
     border-radius: 16px;
-border: 3px solid #44D2FF;
-background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border: 3px solid #44D2FF;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
   }
  
  
   .game__img{
     height: 300px;
- border-radius: 16px;
+    border-radius: 16px;
 
   }
   .game__name{
     color: #FFF;
     font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px; 
-text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+    text-decoration: none;
     position: absolute;
     padding-left: 32px;
     padding-right: 262px;
     padding-top: 236px;
     padding-bottom: 32px;
     }
-.bolt {
+  .bolt {
     color: #FFF;
     font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 32px; 
-} 
+  } 
 
-.seasons {
-  background:#000915;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-wrap: nowrap;
+  .seasons {
+    background:#000915;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 120px;
-}
-.heading {
-  color: #FFF;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.frame {
-  margin-top: 282px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 282px;
+  }
+  .heading {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .frame {
+    margin-top: 282px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 282px;
 
-}
-.drawing {
-  margin-top: 233px;
-  margin-bottom: 233px;
-}
+  }
+  .drawing {
+    margin-top: 233px;
+    margin-bottom: 233px;
+  }
   
 @import "mobail";
   
