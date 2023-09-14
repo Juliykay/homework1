@@ -1,0 +1,62 @@
+@media (max-width: 767px) {
+    
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top {
+        text-align: center;
+    }
+    .top__text {
+     width: 342px;   
+    text-align: center;    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+    }
+    .bolt {
+       font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+    }
+    .title {
+       font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .geme__img {
+        width: 343px;
+        height: 300px;
+    }
+    .seasons {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 20px;
+    }
+    .dr {
+        width: 344px;
+        height: 236px;  
+    }
+    .heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .frame {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .drawing {
+        margin-top: 0;
+        margin-bottom: 84px;
+    }
+
+
+}    

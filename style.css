@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+input, button {
+  font-family: inherit;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -21,7 +25,7 @@ body {
 }
 
 .top__text {
-  width: 481px;
+  width: 480px;
   padding-top: 32px;
   color: #FFF;
   font-size: 18px;
@@ -41,6 +45,11 @@ body {
   padding: 13px 74px;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+.btn:hover {
+  border-radius: 30px;
+  background: #EB443F;
 }
 
 .title {
@@ -66,6 +75,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
+}
+
+.game:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
 }
 
 .game__img {
@@ -94,4 +109,95 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
+}
+
+.seasons {
+  background: #000915;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 120px;
+}
+
+.heading {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.frame {
+  margin-top: 282px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 282px;
+}
+
+.drawing {
+  margin-top: 233px;
+  margin-bottom: 233px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    text-align: center;
+  }
+  .top__text {
+    width: 342px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+  }
+  .bolt {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+  .title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .geme__img {
+    width: 343px;
+    height: 300px;
+  }
+  .seasons {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+  }
+  .dr {
+    width: 344px;
+    height: 236px;
+  }
+  .heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .frame {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .drawing {
+    margin-top: 0;
+    margin-bottom: 84px;
+  }
 }/*# sourceMappingURL=style.css.map */
