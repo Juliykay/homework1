@@ -184,6 +184,13 @@ body {
     width: 344px;
     height: 236px;
   }
+  .membere {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+  }
   .heading {
     color: #FFF;
     text-align: center;
